@@ -15,7 +15,7 @@ class FirstUserSeeder extends Seeder
     public function run(): void
     {
         User::create([
-            'email' => 'admin@gmail.com',
+            'email' => 'admins@gmail.com',
             'password' => Hash::make('password'),
             'is_admin' => true,
             'status' => true
